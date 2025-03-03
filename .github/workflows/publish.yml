@@ -17,5 +17,5 @@ jobs:
         with:
           skipIfReleaseExists: true
           generateReleaseNotes: true
-          token: "${{ secrets.GITHUB_TOKEN }}"
+#          token: "${{ secrets.GITHUB_TOKEN }}"
           artifacts: my-1gb-file
